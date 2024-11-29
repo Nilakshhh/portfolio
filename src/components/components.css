@@ -1,0 +1,23 @@
+/* components.css */
+:root {
+    --fill-color: #ffffff;
+    --fill-number: 0;
+}
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+        --fill-color: #0c0c0c; /* Default for light mode */
+        --fill-number: 0;
+      }
+    
+  }
+
+.svg-container {
+    fill: var(--fill-color); /* Changes the fill color of the SVG */
+    filter: invert(var(--fill-number));
+  }
+/*   
+  .svg-container:hover {
+    color: blue; /* Changes the fill color on hover 
+  } */
+  
