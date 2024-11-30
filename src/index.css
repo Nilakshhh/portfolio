@@ -6,12 +6,6 @@
   --body-color: #0c0c0c; /* Default for light mode */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --body-color: #ffffff;
-  }
-}
-
 body {
   margin: 0;
   background-color: var(--body-color);
