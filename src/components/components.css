@@ -9,3 +9,6 @@
     filter: invert(var(--fill-number));
 }
 
+.fa{
+    color: #E85C0D;
+}
