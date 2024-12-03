@@ -30,8 +30,6 @@ function App() {
             </Layout>
           }
         />
-        
-        <Route path="/no-layout" element={<ProjectInfoCard />} />
       </Routes>
     </Router>
   );
