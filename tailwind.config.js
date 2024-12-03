@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         lato: ['"Lato"', 'cursive', 'sans-serif'],
+        mont: ['"Montserrat"', 'sans-serif']
       },
     },
   },
