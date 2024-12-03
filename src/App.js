@@ -1,24 +1,39 @@
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route
-} from 'react-router-dom'
+} from 'react-router-dom';
 import './App.css';
-import './components/Navbar'
 import Navbar from './components/Navbar';
-import Home from './Home'
+import InfoCard from './components/InfoCard';
+import ProjectInfoCard from './components/ProjectInfoCard';
+import Layout from './Layout';
 
 function App() {
   return (
-    <>
     <Router>
-    <Navbar />
+      <Navbar />
       <Routes>
-        <Route path='/' element={<Home />} />
-        </Routes>
+        <Route
+          path="/"
+          element={
+            <Layout>
+              <InfoCard />
+            </Layout>
+          }
+        />
+        <Route
+          path="/projects"
+          element={
+            <Layout>
+              <ProjectInfoCard />
+            </Layout>
+          }
+        />
+        
+        <Route path="/no-layout" element={<ProjectInfoCard />} />
+      </Routes>
     </Router>
-
-    </>
   );
 }
 

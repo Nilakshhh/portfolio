@@ -12,7 +12,6 @@ function Home() {
         <div className="w-[90%] sm:w-[45%]">
           <InfoCard />
         </div>
-
       </div>
       <Form />
     </>

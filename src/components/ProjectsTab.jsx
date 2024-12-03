@@ -3,6 +3,10 @@ import Project from "./Project";
 function ProjectsTab() {
 
     let projects = [
+        {image: "/me.jpg", title: "First project", link: "google.com", description: "very good description"},
+        {image: "/me.jpg", title: "First project", link: "google.com", description: "very good description"},
+        {image: "/me.jpg", title: "First project", link: "google.com", description: "very good description"},
+        {image: "/me.jpg", title: "First project", link: "google.com", description: "very good description"},
         {image: "/me.jpg", title: "First project", link: "google.com", description: "very good description"}
     ]
     
