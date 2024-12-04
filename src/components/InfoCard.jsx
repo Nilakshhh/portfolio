@@ -13,7 +13,7 @@ function InfoCard() {
             <NumberCard />
             <Heading text1="recent" text2="projects" className="mt-[60px] sm:mt-[84px]"/>
             <ProjectsTab />
-            <Heading text1="professional" text2="experience" className="mt-[60px] sm:mt-[84px]"/>
+            <Heading text1="journey" text2="so far" className="mt-[60px] sm:mt-[84px]"/>
             <ExperienceTab />
         </>
     )

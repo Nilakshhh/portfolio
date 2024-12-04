@@ -34,28 +34,6 @@ export default function Form() {
               />
             </div>
           </div>
-          <div className="flex justify-center items-center gap-[10%]">
-            <div className="flex flex-col w-[45%]">
-              <label htmlFor="Email" className="font-geist text-[#525252] uppercase text-[18px] font-medium leading-[28px] text-left">Email</label>
-              <input
-                className="border-b-2 outline-none w-[400px] py-[10px] font-geist text-[18px] font-normal leading-[28px] text-left text-[#ABABAB]"
-                id="Email"
-                placeholder="So we can respond promptly to your enquiry
-  
-  "
-                type="email"
-              />
-            </div>
-            <div className="flex flex-col w-[45%]">
-              <label htmlFor="reference" className="font-geist text-[#525252] uppercase text-[18px] font-medium leading-[28px] text-left">WHO REFERRED YOU TO US?</label>
-              <input
-                className="border-b-2 outline-none w-[400px] py-[10px] font-geist text-[18px] font-normal leading-[28px] text-left text-[#ABABAB]"
-                id="reference"
-                placeholder="So we can say thank you"
-                type="text"
-              />
-            </div>
-          </div>
           <div div className="flex justify-start items-start gap-[40px]">
             <div className="flex flex-col w-[100%]">
               <label htmlFor="MESSAGE" className="font-geist text-[#525252] uppercase text-[18px] font-medium leading-[28px] text-left">MESSAGE</label>
@@ -67,14 +45,7 @@ export default function Form() {
               />
             </div>
           </div>
-          <div div className="flex justify-between items-center ">
-            <div className="flex gap-[5px] ">
-              <input type="checkbox" />
-              <p className="font-sans capitalize text-[14px] font-normal leading-[20px] text-left text-[#6F6F6F]">
-                I agree and consent to the Privacy Policy, its terms of processing
-                of my personal data.
-              </p>
-            </div>
+          <div div className="flex justify-between items-center ">  
             <button className="uppercase bg-black text-white px-[12px] py-0 text-[14px] hover:scale-[1.1]">
               <span>
                 <svg width="368" height="72" viewBox="0 0 368 72" fill="none" xmlns="http://www.w3.org/2000/svg">
