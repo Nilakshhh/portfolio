@@ -5,7 +5,6 @@ function NumberCompo({textnum, text1, text2}) {
                 {textnum}
             </h2>
             <p className="uppercase text-[14px] font-bold text-[#6F6C6B] font-lato">{text1} <br></br><span>{text2}</span></p>
-
         </div>
     )
 }
