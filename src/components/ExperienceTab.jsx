@@ -3,7 +3,11 @@ import Experience from "./Experience";
 function ExperienceTab() {
 
     let experiences = [
-        {title: "First Exp", bp1: "Good exp verry very good exp", bp2: "goody two shoes, goof fefwbkw", date: "Mar 24 - Apr 24"},
+        {title: "First Exp", desc: "Good exp verry very fdjythj hfshtgfg hfsrthnyghhhhhh gdstrhg hktshjhg ytsrth hfstrh hfsehf ghsht  hfsregf hgood exp", position: "Software developer", date: "Mar 24 - Apr 24"},
+        {title: "First Exp", desc: "Good exp verry very fdjythj hfshtgfg hfsrthnyghhhhhh gdstrhg hktshjhg ytsrth hfstrh hfsehf ghsht  hfsregf hgood exp", position: "Software developer", date: "Mar 24 - Apr 24"},
+        {title: "First Exp", desc: "Good exp verry very fdjythj hfshtgfg hfsrthnyghhhhhh gdstrhg hktshjhg ytsrth hfstrh hfsehf ghsht  hfsregf hgood exp", position: "Software developer", date: "Mar 24 - Apr 24"},
+        {title: "First Exp", desc: "Good exp verry very fdjythj hfshtgfg hfsrthnyghhhhhh gdstrhg hktshjhg ytsrth hfstrh hfsehf ghsht  hfsregf hgood exp", position: "Software developer", date: "Mar 24 - Apr 24"},
+        {title: "First Exp", desc: "Good exp verry very fdjythj hfshtgfg hfsrthnyghhhhhh gdstrhg hktshjhg ytsrth hfstrh hfsehf ghsht  hfsregf hgood exp", position: "Software developer", date: "Mar 24 - Apr 24"},
     ]
     
     return(
@@ -12,8 +16,8 @@ function ExperienceTab() {
         <Experience
         key={index}
         title={experience.title}
-        bp1 = {experience.bp1}
-        bp2 = {experience.bp2}
+        desc = {experience.desc}
+        position = {experience.position}
         date = {experience.date}
         />
     ))}
