@@ -3,6 +3,7 @@ import Text from "./Text";
 import NumberCard from "./NumberCard"
 import ProjectsTab from "./ProjectsTab";
 import ExperienceTab from "./ExperienceTab";
+import Skill from "./Skill"
 
 function InfoCard() {
     var intro = "Passionate about creating intuitive and engaging user experiences. Specialize in transforming ideas into beautifully crafted products."
@@ -15,6 +16,8 @@ function InfoCard() {
             <ProjectsTab />
             <Heading text1="journey" text2="so far" className="mt-[60px] sm:mt-[84px]"/>
             <ExperienceTab />
+            <Heading text1="Skills" text2="" className="mt-[60px] sm:mt-[84px]"/>
+            <Skill />
         </>
     )
 }
