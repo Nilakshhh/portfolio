@@ -1,10 +1,21 @@
 function SkillCompo({img, text}) {
     return(
-        <div className="w-[50%] h-[100%] flex flex-row gap-[20px] items-center justify-start pl-[24px] hover:bg-[#423F3E] transition-colors duration-500 ease-in-out rounded-[24px]">
-            <img src={img} alt="logo" className="sm:w-[72px] w-[60px]"></img>
-            <p className="text-[#ffffff] text-[24px] sm:text-[30px] font-lato">{text}</p>
+        <div className="w-[30%] h-[100%] flex flex-col sm:flex-row gap-[20px] items-center justify-center sm:justify-start sm:pl-[24px]">
+            <img src={img} alt="logo" className="sm:w-[60px] w-[48px]"></img>
+            <p className="text-[#ffffff] text-[24px] sm:text-[18px] font-lato">{text}</p>
         </div>
     )
 }
 
 export default SkillCompo;
+
+// function SkillCompo({img, text}) {
+//     return(
+//         <div className="flex flex-col w-[30%] h-[96px] gap-[12px] justify-left items-center rounded-[24px]">
+//             <img src={img} alt="logo" className="w-[84px]"></img>
+//             <p className="text-[#ffffff] text-[24px] font-lato">{text}</p>
+//         </div>
+//     )
+// }
+
+// export default SkillCompo;
