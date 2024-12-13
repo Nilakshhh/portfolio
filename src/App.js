@@ -8,6 +8,9 @@ import Navbar from './components/Navbar';
 import InfoCard from './components/InfoCard';
 import ProjectInfoCard from './components/ProjectInfoCard';
 import Layout from './Layout';
+import ExperienceInfoCard from './components/ExperienceInfoCard';
+import SkillInfoCard from './components/SkillInfoCard';
+import ThoughtInfoCard from './components/ThoughtInfoCard';
 
 function App() {
   return (
@@ -27,6 +30,30 @@ function App() {
           element={
             <Layout>
               <ProjectInfoCard />
+            </Layout>
+          }
+        />
+        <Route
+          path="/experience"
+          element={
+            <Layout>
+              <ExperienceInfoCard />
+            </Layout>
+          }
+        />
+        <Route
+          path="/skills"
+          element={
+            <Layout>
+              <SkillInfoCard />
+            </Layout>
+          }
+        />
+        <Route
+          path="/thoughts"
+          element={
+            <Layout>
+              <ThoughtInfoCard />
             </Layout>
           }
         />

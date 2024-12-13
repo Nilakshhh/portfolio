@@ -17,10 +17,10 @@ export default function ProfileCard() {
                     "A software engineer who has developed countless innovative solutions"
                 </p>
                 <div className="flex flex-row justify-evenly items-center">
-                    <a className="w-[36px] h-[36px]"><i className="fa-lg fa fa-brands fa-linkedin"></i></a>
-                    <a className="w-[36px] h-[36px]"><i className="fa-lg fa fa-brands fa-github"></i></a>
-                    <a className="w-[36px] h-[36px]"><i className="fa-lg fa fa-brands fa-instagram"></i></a>
-                    <a className="w-[36px] h-[36px]"><i className="fa-lg fa fa-solid fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/nilaksh-dureja/" target="_blank" rel="noopener noreferrer" className="w-[36px] h-[36px]"><i className="fa-lg fa fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Nilakshhh" target="_blank" rel="noopener noreferrer" className="w-[36px] h-[36px]"><i className="fa-lg fa fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/nilakshhh/" target="_blank" rel="noopener noreferrer" className="w-[36px] h-[36px]"><i className="fa-lg fa fa-brands fa-instagram"></i></a>
+                    <a href="mailto:dnilaksh05@gmail.com" target="_blank" rel="noopener noreferrer" className="w-[36px] h-[36px]"><i className="fa-lg fa fa-solid fa-envelope"></i></a>
                 </div>
             </div>
         </div>
