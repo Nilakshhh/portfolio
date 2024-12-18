@@ -9,7 +9,7 @@ function Experience({ title, desc, position, date }) {
                 <h1 className="capitalize text-[18px] sm:text-[24px] font-lato">{date}</h1>
             </div>
             <div className="text-[#ffffff]">
-                <p className="w-[100%] sm:w-[65%]">{desc}</p>
+                <p className="w-[100%] sm:w-[85%]">{desc}</p>
             </div>
 
         </div>
