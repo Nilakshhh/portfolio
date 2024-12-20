@@ -4,7 +4,7 @@ export default function ProfileCard() {
         <div className="w-[100%] h-[100%] bg-[#ffffff] rounded-[14px] p-[12px] flex flex-col justify-center items-center">
             <div className="flex flex-col justify-top pt-[30px] gap-[24px] h-[80%] items-center">
                 <img
-                    src="/chill.png"
+                    src="/me.jpg"
                     alt="profile-photo"
                     width={200}
                     height={250}
