@@ -1,4 +1,4 @@
-function Experience({ title, desc, position, date }) {
+function Experience({ title, desc, position, date, desc_sec }) {
     return (
         <div className="group w-[100%] border-[0] rounded-[24px] p-[18px] flex flex-col gap-[24px] justify-between hover:bg-[#423F3E] transition-colors duration-500 ease-in-out">
             <div className="flex flex-row justify-between text-[#ffffff]">
@@ -10,6 +10,9 @@ function Experience({ title, desc, position, date }) {
             </div>
             <div className="text-[#ffffff]">
                 <p className="w-[100%] sm:w-[85%]">{desc}</p>
+            </div>
+            <div className="text-[#ffffff]">
+                <p className="w-[100%] sm:w-[85%]"><span className="text-[#E85C0D] text-[18px] sm:text-[24px] font-lato text-[#423F3E] font-bold">Skills: </span>{desc_sec}</p>
             </div>
 
         </div>

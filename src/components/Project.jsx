@@ -11,7 +11,7 @@ function Project({ image, title, link, description }) {
             </div>
 
             <div className="text-[#ffffff] flex flex-col items-start justify-start">
-                <a href={link}><i className="fa fa-lg group-hover:scale-125 transition-transform duration-500 fa-solid fa-arrow-right rotate-[315deg]"></i></a>
+                <a href={link} target="_blank" rel="noopener noreferrer"><i className="fa fa-lg group-hover:scale-125 transition-transform duration-500 fa-solid fa-arrow-right rotate-[315deg]"></i></a>
             </div>
 
         </div>
