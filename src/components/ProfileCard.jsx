@@ -10,7 +10,7 @@ export default function ProfileCard() {
                     height={250}
                     className="rounded-[14px]"
                 />
-                <h1 className="text-[36px] font-extrabold font-lato">NILAKSH DUREJA</h1>
+                <h1 className="text-[30px] sm:text-[36px] font-extrabold font-lato items-center">NILAKSH DUREJA</h1>
             </div>
             <div className="h-[40%] flex flex-col justify-center items-center gap-[24px]">
                 <p className="text-center text-[20px]">
