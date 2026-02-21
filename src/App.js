@@ -4,18 +4,17 @@ import {
   Route
 } from 'react-router-dom';
 import './App.css';
-import Navbar from './components/Navbar';
 import InfoCard from './components/InfoCard';
 import ProjectInfoCard from './components/ProjectInfoCard';
 import Layout from './Layout';
 import ExperienceInfoCard from './components/ExperienceInfoCard';
 import SkillInfoCard from './components/SkillInfoCard';
 import ThoughtInfoCard from './components/ThoughtInfoCard';
+import BlogPage from './blog/slug/page'
 
 function App() {
   return (
     <Router>
-      <Navbar />
       <Routes>
         <Route
           path="/"
@@ -57,6 +56,7 @@ function App() {
             </Layout>
           }
         />
+        <Route path="/blog/:slug" element={<BlogPage />} />
       </Routes>
     </Router>
   );
